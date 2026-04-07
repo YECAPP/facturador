@@ -90,5 +90,4 @@ def crear_factura_query(
     nueva = {"numero": numero, "monto": monto, "cliente": cliente, "iva": iva}
     facturas_db.append(nueva)
     return {"status": "creada", "factura": nueva}
-
 `
